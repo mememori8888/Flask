@@ -12,7 +12,7 @@ def scriping():
     options.add_argument('--headless')
 
 
-    browser = webdriver.Chrome(executable_path='chromedriver',chrome_options=options)
+    browser = webdriver.Chrome(executable_path='./chromedriver',chrome_options=options)
     browser.set_window_size(1920,1080)
     BASE_URL = 'https://www.esthe-ranking.jp/shibuya/'
     browser.get(BASE_URL)
